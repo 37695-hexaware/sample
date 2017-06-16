@@ -1,0 +1,17 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "2",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+,"start": "node app.js"  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "author": "",
+  "license": "ISC"
+}
