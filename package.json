@@ -1,0 +1,26 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "Desc",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/37695-hexaware/sample.git"
+  },
+  "keywords": [
+    "sample"
+  ],
+  "author": "37695",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/37695-hexaware/sample/issues"
+  },
+  "homepage": "https://github.com/37695-hexaware/sample#readme"
+}
