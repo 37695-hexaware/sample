@@ -1,0 +1,17 @@
+https://api.slack.com/apps/A5VFL4HRD?created=1
+
+
+client id :198629264979.199530153863
+
+client secret: 29ccadd2943b145bb5c4dbec31813f75
+
+verification token:U8CkArWkv4W7WkWFXjnqX3tb
+
+app name: testapp
+
+tokens for team :xoxp-198629264979-199527126247-198633081859-0730bf7a2310a3fff2646aaeea13ca90
+
+testapp1
+client id 198629264979.198150411745
+client secret db943894301d07e0dc2e9d134724de85
+verification token s2Fos7NFOdYqJFMcCi4jYugs
