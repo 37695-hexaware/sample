@@ -1,0 +1,29 @@
+{
+  "name": "API.AI Skype integration",
+  "description": "Api.ai Skype integration allows you to create Skype bots with natural language understanding based on Api.ai technology.",
+  "repository": "https://github.com/api-ai/apiai-skype-bot",
+  "logo": "http://xvir.github.io/img/apiai.png",
+  "keywords": ["api.ai", "skype", "natural language"],
+  "env": {
+    "APIAI_ACCESS_TOKEN": {
+      "description": "Client access token for Api.ai",
+      "value": "197ba403100b4b90958dc6744ba8767f"
+    },
+    "APIAI_LANG": {
+      "description": "Agent language",
+      "value": "en",
+      "required": false
+    },
+    "APP_ID": {
+      "description": "Microsoft App ID",
+      "value": "8683c6fc-6c05-4526-b728-a6806f6cdb76"
+    },
+    "APP_SECRET": {
+      "description": "Microsoft App Password",
+      "value": "Qgej8X2puSrt3NGStPuaesi"
+    }
+  },
+  "engines": {
+    "node": "5.10.1"
+  }
+}

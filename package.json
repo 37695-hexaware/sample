@@ -1,26 +1,25 @@
 {
-  "name": "sample",
+  "name": "test",
   "version": "1.0.0",
-  "description": "Desc",
+  "description": "Before you start the bot you need install the dependencies using  `npm install`.",
   "main": "app.js",
-  "dependencies": {
-    "express": "^4.15.3"
-  },
-  "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/37695-hexaware/sample.git"
+  "keywords": [],
+  "engines": {
+    "node": ">=5.6.0"
   },
-  "keywords": [
-    "sample"
-  ],
-  "author": "37695",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/37695-hexaware/sample/issues"
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "apiai": "^2.0.5",
+    "body-parser": "^1.15.1",
+    "botbuilder": "^3.1.1",
+    "console-stamp": "^0.2.2",
+    "express": "^4.13.4",
+    "node-uuid": "^1.4.7"
   },
-  "homepage": "https://github.com/37695-hexaware/sample#readme"
+  "devDependencies": {}
 }
