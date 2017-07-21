@@ -34,7 +34,7 @@ var options = {
     sessionId: '567yh8'
 };
 
-
+console.log("in api.ai ");
 
 
    app.post('/',function(req,res){
