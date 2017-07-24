@@ -43,6 +43,7 @@ console.log("in___ api.ai ");
         var resagent="Sure, will check the details  from " + req.body.result.parameters.location+ " to "+
         req.body.result.parameters.location1+
         "   for "+ req.body.result.parameters.date +"  .....";
+       console.log(" location is "+location1);
       }else{
    var resagent="Alright, will check for tkts to " + req.body.result.parameters.location+
    "   for"+ req.body.result.parameters.date +"   How would you like to travel?by flight,train or bus.....";
