@@ -40,7 +40,7 @@ console.log("in___ api.ai ");
    app.post('/',function(req,res){
       console.log('REQUESTTTTT:::'+JSON.stringify(req.body));
       if(req.body.result.parameters.location1){
-        var resagent="Sure, will check the details  from " + req.body.result.parameters.location+ " to "+
+        var resagent="Sure, will check the details  from " + req.body.result.parameters.location1+ " to "+
         req.body.result.parameters.location1+
         "   for "+ req.body.result.parameters.date +"  .....";
        console.log(" location is "+location1);
