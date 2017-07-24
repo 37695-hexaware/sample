@@ -21,7 +21,7 @@ res.setHeader('Content-Type', 'application/json'); //Requires application/json M
 'use strict';
 var apiai = require('apiai');
 
-var appai = apiai("baf498c6d40a4a70b54ef80debdcbc33");
+var appai = apiai("d19caf719ad14024b9418fcb93e6d904");
 
 var express=require('express');
 var bodyParser = require('body-parser');
