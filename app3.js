@@ -39,6 +39,8 @@ console.log("in___ api.ai ");
 
    app.post('/',function(req,res){
       console.log('REQUESTTTTT:::'+JSON.stringify(req.body));
+       var spec1= req.body.result.fulfillment.messages.speech;
+      console.log(" console output : speech "+spec1);
       if(req.body.result.parameters.location1){
         var resagent="Sure, will check the details  from " + req.body.result.parameters.location1+ " to "+
         req.body.result.parameters.location1+
