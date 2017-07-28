@@ -42,7 +42,7 @@ console.log("in___ api.ai ");
        var spec1= req.body.result.fulfillment.messages.speech;
       console.log(" console output : speech "+spec1);
          var color = req.body.result.parameters.color;
-      console.log("color is ***"+color);
+      console.log("color is ***+++++++++++++++++++++++++++++"+color);
     
       if(req.body.result.parameters.location1){
         var resagent="Sure, will check the details  from " + req.body.result.parameters.location1+ " to "+
