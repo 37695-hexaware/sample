@@ -51,7 +51,7 @@ console.log("in___ api.ai ");
        console.log(" location is "+location1);
       }else{
    var resagent="Alright, will check for tkts to " + req.body.result.parameters.location+
-   "   for"+ req.body.result.parameters.date +"   How would you like to travel?by flight,train or bus.....";
+   "   for"+ req.body.result.parameters.date +"   How would you like to travel?by flight,train or bus....."+"color is "+color;
 }
       return res.json({
         speech:resagent,
