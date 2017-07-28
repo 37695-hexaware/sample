@@ -43,7 +43,7 @@ console.log("in___ api.ai ");
       console.log(" console output : speech "+spec1);
          var color = req.body.result.parameters.color;
       console.log("color is ***+++++++++++++++++++++++++++++"+color);
-      var num_val=req.body.result.parameters.unit_length;
+      var num_val=req.body.result.parameters.number1;
       
       if(req.body.result.parameters.location1){
         var resagent="Sure, will check the details  from " + req.body.result.parameters.location1+ " to "+
@@ -53,7 +53,7 @@ console.log("in___ api.ai ");
       }else{
    var resagent="Alright, will check for tkts to " + req.body.result.parameters.location+
    "   for"+ req.body.result.parameters.date +"   How would you like to travel?by flight,train or bus....."+"color is "+color+
-       "number to be printed "+(num_val+2);
+       "number to be printed "+((num_val)+2);
 }
       return res.json({
         speech:resagent,
